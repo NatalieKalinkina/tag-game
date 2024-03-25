@@ -1,0 +1,15 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+
+body {
+  background-color: white;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.link:hover {
+  opacity: 0.7;
+}
+
+.button:hover {
+  opacity: 0.8;
+}

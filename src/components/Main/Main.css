@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  gap: 15px;
+  align-items: center;
+  grid-area: main;
+}
+
+.main__title {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: rgb(101, 156, 53);
+  font-size: 24px;
+}
+
+.main__text {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: rgb(101, 156, 53);
+  font-size: 16px;
+}

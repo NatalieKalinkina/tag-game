@@ -1,0 +1,18 @@
+.tag-game__field {
+  width: 615px;
+  height: 615px;
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(4, 150px);
+  gap: 5px 5px;
+  margin: 20px auto 0;
+}
+
+.tag-game__field_type_win {
+  background-image: url('../../images/full.png');
+  width: 615px;
+  height: 615px;
+  background-size: 615px 615px;
+  margin: 20px auto 0;
+}
