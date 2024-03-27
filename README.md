@@ -11,8 +11,7 @@ Tag-game (пятнашки) - простая браузерная игра, гд
 * HTML5
 * CSS3
 * JavaScript
-* React JS
-* БЭМ
+* React
 * Webpack
 * Vite
 
