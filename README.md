@@ -42,4 +42,5 @@ vite
 :white_square_button:Рейтинг игроков  
 :white_square_button:Использование Redux
 :white_square_button:Адаптация под мобильные
+:white_square_button:Продумать алгоритм генерации только решаемых стартовых позиций карточек (проблема 15/14)
 
