@@ -41,4 +41,5 @@ vite
 :white_square_button:Подсчет очков  
 :white_square_button:Рейтинг игроков  
 :white_square_button:Использование Redux
+:white_square_button:Адаптация под мобильные
 
