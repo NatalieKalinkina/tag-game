@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import './SettingsPopup.css';
-import { getMinutes, getSeconds } from "../../utils/changeTimeFormat";
 
 export function SettingsPopup({ isOpened, onPopupClose, onSave, setIsTimerActive, gameTimer }) {
 
@@ -30,7 +29,7 @@ export function SettingsPopup({ isOpened, onPopupClose, onSave, setIsTimerActive
             'общее время: ': totalSeconds
         });
         if (checkedCheckbox) {
-            if (isNaN(minutes) || isNaN(seconds) || totalSeconds === 0) {
+            if (isNaN(minutes) || isNaN(seconds) || totalSeconds === '0') {
                 setIsEmpty(true);
             }
             else {
